@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 30px 10px;
+    font: normal 26px 'Times New Roman';
+    text-align: center;
+}
+
+h2 {
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    color:#111;
+    background-color: #f1f1f1;
+    border: 3px dotted #111;
+    border-radius: 10px;
+}
+
+#feladat {
+    width: 50%;
+    background-color: #f1f1f1;
+    color: #111;
+    font: normal 16px 'Aial';
+    border: 3px solid #111;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+#feladat {
+    padding: 3px;
+}
+
+.container {
+    width: 40%;
+    color: #111;
+    background-color: #f1f1f1;
+    font: normal 16px 'Aial';
+    border: 3px solid #111;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+}
+
+#cimsor {
+    padding-bottom: 5px;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.attention {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.congratulation {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.end {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+#reboot {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    left: 10px;
+}
